@@ -25,4 +25,12 @@ public class ShapeCalculator implements Calc3D, Calc2D{
         area=rectangle.getLength()*rectangle.getWidth();
         return area;
     }
+
+    @Override
+    public double shapeArea(Shape2D shape2D) {
+        if(shape2D instanceof Circle){
+        }
+        return area;
+    }
+
 }

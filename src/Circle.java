@@ -1,4 +1,4 @@
-public class Circle extends Shape2D{
+public class Circle extends GeometricShape{
     private double radius;
 
     public Circle(Point2D point2D, double radius) {
