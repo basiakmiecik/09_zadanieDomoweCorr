@@ -14,10 +14,10 @@ public class ShapeTest {
         LineCalc lineCalc= new LineCalc();
 
 
-        System.out.println("Objętość kuli wynosi: "+shapeCalculator.ballVolume(ball)+
+        /*System.out.println("Objętość kuli wynosi: "+shapeCalculator.ballVolume(ball)+
                 "\nObjętość sześcianu wynosi: "+shapeCalculator.cubeVolume(cube)+
                 "\nPole koła wynosi: "+shapeCalculator.circleArea(circle)+
                 "\nPole prostokąta wynosi: "+shapeCalculator.rectangleArea(rectangle)+
-                "\nDługość odcinka wynosi: "+lineCalc.lineLength(line2D));
+                "\nDługość odcinka wynosi: "+lineCalc.lineLength(line2D));*/
     }
 }
