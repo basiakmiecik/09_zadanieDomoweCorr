@@ -8,11 +8,6 @@ public abstract class Shape2D extends Shape{
         this.point2D = point2D;
     }
 
-    public Shape2D(String name, Point2D point2D) {
-        super(name);
-        this.point2D = point2D;
-    }
-
     public Point2D getPoint2D() {
         return point2D;
     }

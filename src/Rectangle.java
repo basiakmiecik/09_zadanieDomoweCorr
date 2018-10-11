@@ -2,8 +2,7 @@ public class Rectangle extends GeometricShape{
     private double width;
     private double length;
 
-    public Rectangle(Point2D point2D, double width, double length) {
-        super(point2D);
+    public Rectangle(double width, double length) {
         this.width = width;
         this.length = length;
     }

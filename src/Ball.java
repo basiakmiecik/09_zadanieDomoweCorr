@@ -1,8 +1,7 @@
 public class Ball extends Shape3D{
     private double radius;
 
-    public Ball(Point3D point3D, double radius) {
-        super(point3D);
+    public Ball( double radius) {
         this.radius = radius;
     }
 

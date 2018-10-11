@@ -1,12 +1,12 @@
 public class ShapeTest {
     public static void main(String[] args) {
-        Point3D point3D= new Point3D();//punkt w któtym jest początek figury
+
         Point2D point2D= new Point2D(0,0);//punkt w któtym jest początek figury
         Point2D point2D1=new Point2D(10,10);
-        Ball ball = new Ball (point3D,10);
-        Cube cube= new Cube(point3D,10);
-        Circle circle= new Circle(point2D,10);
-        Rectangle rectangle= new Rectangle(point2D,2,10);
+        Ball ball = new Ball (10);
+        Cube cube= new Cube(10);
+        Circle circle= new Circle(10);
+        Rectangle rectangle= new Rectangle(2,10);
         Line2D line2D= new Line2D(point2D,point2D1);
 
 

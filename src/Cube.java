@@ -1,8 +1,8 @@
 public class Cube extends Shape3D{
     private double width;
 
-    public Cube(Point3D point3D, double width) {
-        super(point3D);
+    public Cube(double width) {
+
         this.width = width;
     }
 
